@@ -8,10 +8,11 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #ffffff; /* Fundo branco igual ao exemplo */
-    color: #333;
+    color: #ffffff;
 }
 
 header{
+    background-color: rgb(25, 106, 226);
     text-align: center;
     padding: 40px 20px 20px 20px;
     font-size: 1.5rem;
@@ -28,8 +29,8 @@ header{
 }
 
 .card {
-    background-color: white;
-    border: 2px solid #1a1a1a;
+    background-color: rgb(25, 106, 226);
+    border: 5px solid #000000;
     width: 300px;
     min-height: 420px;
     display: flex;
@@ -40,8 +41,8 @@ header{
 }
 
 .card-icon img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -50,5 +51,5 @@ header{
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    color: #1a1a1a;
+    color: #ffffff;
 }
